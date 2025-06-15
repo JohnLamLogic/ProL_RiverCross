@@ -1,0 +1,6 @@
+?- solve(Path).
+Path = [state(w, w, w, w), state(e, w, e, w), state(w, w, e, w), state(e, e, e, w), state(w, e, w, w), state(e, e, w, e), state(w, e, w, e), state(e, e, e, e)] ;
+Path = [state(w, w, w, w), state(e, w, e, w), state(w, w, e, w), state(e, e, e, w), state(w, e, w, w), state(e, e, w, e), state(w, e, w, e), state(e, e, e, e)] ;
+Path = [state(w, w, w, w), state(e, w, e, w), state(w, w, e, w), state(e, w, e, e), state(w, w, w, e), state(e, e, w, e), state(w, e, w, e), state(e, e, e, e)] ;
+Path = [state(w, w, w, w), state(e, w, e, w), state(w, w, e, w), state(e, w, e, e), state(w, w, w, e), state(e, e, w, e), state(w, e, w, e), state(e, e, e, e)] ;
+false.
